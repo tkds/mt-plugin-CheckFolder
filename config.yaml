@@ -1,0 +1,15 @@
+name: CheckFolder
+id  : CheckFolder
+key:  CheckFolder
+version: 0.0.1
+author_link: https://github.com/tkds/mt-plugin-CheckFolder
+author_name: tkds
+l10n_class: CheckFolder::L10N
+description: <__trans phrase="Confirm folder selection.">
+system_config_template: config.tmpl
+callbacks:
+    MT::App::CMS::template_param.edit_entry: $CheckFolder::CheckFolder::Plugin::hdlr_template_source_edit_template
+settings:
+    setting_system:
+        default: 0
+        scope: system

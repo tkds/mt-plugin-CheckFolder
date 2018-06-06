@@ -1,0 +1,11 @@
+<script type="text/javascript">
+jQuery(function($) {
+  $('button.publish').on('click', function(){
+    var check = $('.folder-list li').text();
+    if (check === '/') {
+      alert('フォルダをチェックして公開もしくは保存してください。');
+      return false;
+    }
+  })  
+});
+</script>
