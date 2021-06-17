@@ -1,7 +1,7 @@
 name: CheckFolder
 id  : CheckFolder
 key:  CheckFolder
-version: 0.0.1
+version: 0.0.2
 author_link: https://github.com/tkds/mt-plugin-CheckFolder
 author_name: tkds
 l10n_class: CheckFolder::L10N
